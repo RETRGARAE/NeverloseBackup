@@ -1492,19 +1492,6 @@ function Neverlose_Main:Window(config)
     SettingsVersionHolderLayout.SortOrder = Enum.SortOrder.LayoutOrder
     SettingsVersionHolderLayout.Padding = UDim.new(0, 8)
     
-    VersionText.Name = "VersionText"
-    VersionText.Parent = SettingsVersionHolder
-    VersionText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    VersionText.BackgroundTransparency = 1.000
-    VersionText.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    VersionText.BorderSizePixel = 0
-    VersionText.Position = UDim2.new(0.0666666701, 0, 0.12350598, 0)
-    VersionText.Size = UDim2.new(0, 35, 0, 18)
-    VersionText.Font = Enum.Font.GothamBold
-    VersionText.TextColor3 = Color3.fromRGB(255, 255, 255)
-    VersionText.TextSize = 14.000
-    VersionText.TextXAlignment = Enum.TextXAlignment.Left
-    VersionText.RichText = true
     
     BuildDateText.Name = "BuildDateText"
     BuildDateText.Parent = SettingsVersionHolder
