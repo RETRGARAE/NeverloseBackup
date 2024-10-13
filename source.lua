@@ -1493,36 +1493,6 @@ function Neverlose_Main:Window(config)
     SettingsVersionHolderLayout.Padding = UDim.new(0, 8)
     
     
-    BuildDateText.Name = "BuildDateText"
-    BuildDateText.Parent = SettingsVersionHolder
-    BuildDateText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    BuildDateText.BackgroundTransparency = 1.000
-    BuildDateText.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    BuildDateText.BorderSizePixel = 0
-    BuildDateText.Position = UDim2.new(0.0666666701, 0, 0.12350598, 0)
-    BuildDateText.Size = UDim2.new(0, 35, 0, 18)
-    BuildDateText.Font = Enum.Font.GothamBold
-    BuildDateText.Text = "Build date: <font color='rgb(9, 174, 255)'>"..BuildInfo:GetBuild().."</font>"
-    BuildDateText.TextColor3 = Color3.fromRGB(255, 255, 255)
-    BuildDateText.TextSize = 14.000
-    BuildDateText.TextXAlignment = Enum.TextXAlignment.Left
-    BuildDateText.RichText = true
-    
-    BuildTypeText.Name = "BuildTypeText"
-    BuildTypeText.Parent = SettingsVersionHolder
-    BuildTypeText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    BuildTypeText.BackgroundTransparency = 1.000
-    BuildTypeText.BorderColor3 = Color3.fromRGB(0, 0, 0)
-    BuildTypeText.BorderSizePixel = 0
-    BuildTypeText.Position = UDim2.new(0.0666666701, 0, 0.12350598, 0)
-    BuildTypeText.Size = UDim2.new(0, 35, 0, 18)
-    BuildTypeText.Font = Enum.Font.GothamBold
-    BuildTypeText.Text = "Build type: <font color='rgb(9, 174, 255)'>"..BuildInfo:BuildType().."</font>"
-    BuildTypeText.TextColor3 = Color3.fromRGB(255, 255, 255)
-    BuildTypeText.TextSize = 14.000
-    BuildTypeText.TextXAlignment = Enum.TextXAlignment.Left
-    BuildTypeText.RichText = true
-    
     RegisteredText.Name = "RegisteredText"
     RegisteredText.Parent = SettingsVersionHolder
     RegisteredText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
